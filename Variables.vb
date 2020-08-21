@@ -8,6 +8,8 @@ Module Variables
         Dim mySecondNumber As Integer
         Dim aLittleString As String
         Dim someSortOfTest As Boolean
+        Dim result As Integer
+
 
 
 
@@ -37,7 +39,17 @@ Module Variables
         'Console.WriteLine(x)
         'Console.ReadLine()
 
+        'do math 
+        mySecondNumber = 8
 
+        Console.WriteLine(myFirstNumber + mySecondNumber)
+        Console.ReadLine()
+        'myFirstNumber +mySecondNumber
+
+        result = (myFirstNumber + mySecondNumber)
+
+        Console.WriteLine(result)
+        Console.ReadLine()
 
 
 
